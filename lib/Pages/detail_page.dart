@@ -32,7 +32,9 @@ class _DetailPageState extends State<DetailPage> {
                   shape: BoxShape.circle,
                 ),
               ),
-              SizedBox(height: 20,),
+              SizedBox(
+                height: 20,
+              ),
               Text(
                 widget.name!,
                 overflow: TextOverflow.ellipsis,
