@@ -8,7 +8,7 @@ enum Act{ Fetch }
 API_Manager api_manager =API_Manager();
 
 class BlocFile{
-  final _stateStreamController = StreamController<List<University>>();
+  final _stateStreamController = StreamController<List<University>>.broadcast();
   StreamSink<List<University>> get _universitySink => _stateStreamController.sink;
   Stream<List<University>> get universityStream => _stateStreamController.stream;
 
