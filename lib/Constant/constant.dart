@@ -1,0 +1,2 @@
+var apiKey =Uri.parse("http://universities.hipolabs.com/search?country=United+States");
+String image = "https://www.collegeconsensus.com/wp-content/uploads/2016/12/o-HARVARD-UNIVERSITY-BUILDING-facebook-1024x512.jpg";
